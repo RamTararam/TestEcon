@@ -1,9 +1,9 @@
-Для работы скрипта необходима библиотека <a href="https://bitbucket.org/lorien/grab">Grab</a>
+Для работы скрипта необходима библиотека Grab: https://bitbucket.org/lorien/grab
 Описание которой есть здесь: http://habrahabr.ru/blogs/python/127584/
 С остальными зависимостями разберетесь сами
 
 Нужно задать 3 параметра в post_data: 
-    авторизационные данные p1,p2. Берутся из любой ссылки Информ. меню. Например, http://shelly.ksu.ru/e-ksu/student_personal.shedule?p1=27259&p2=297654
+    авторизационные данные p1,p2. Берутся из любой ссылки Информ. меню. Например, http://shelly.ksu.ru/e-ksu/student_personal.shedule?p1=1212&p2=121212
     номер теста p_test
 post_data = (
     ('p1',1234),        #здесь
